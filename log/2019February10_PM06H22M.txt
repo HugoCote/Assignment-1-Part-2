@@ -1,0 +1,1 @@
+None : number of parameters = 877930, deptp = 3. , lr = 0.055, batch size = 512

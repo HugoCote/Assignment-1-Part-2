@@ -1,0 +1,1 @@
+deep MLP with 6 hidden layer : number of parameters = 878336, deptp = 7. , lr = 0.055, batch size = 512
