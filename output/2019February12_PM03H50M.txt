@@ -1,3 +1,0 @@
-
-    MLP with 2 hidden layer
-     : number of parameters = 877930, depth = 3. , lr = 0.038691406250000004, batch size = 64
