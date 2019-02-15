@@ -1,0 +1,1 @@
+CNN Classifier : number of parameters = 880850, depth = 7. , lr = 0.0831689, batch size = 2048
