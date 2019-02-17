@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Assigment 1, part2}{}% 1
+\BOOKMARK [2][-]{subsubsection.1.0.1}{Members of the team :}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Assigment 1, part 2}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Import the data}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Define some modules}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.1}{the MPL}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.2}{The CNN}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Training and measuring accuracy algorithms}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Plotting functions}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Define some initialization methods}{subsection.2.2}% 10
+\BOOKMARK [1][-]{section.3}{Train some multi-layer perceptron's \(MLP's\)}{}% 11
+\BOOKMARK [2][-]{subsubsection.3.0.1}{Take what seems to be the best choice of hyper-parameters and train an mlp}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.0.2}{Compare the performance of the mlp and the cnn on both dataset}{subsubsection.3.0.1}% 13
+\BOOKMARK [1][-]{section.4}{Comparison of accuracy}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Comparing the models}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{The interesting part of the notebook ends here}{}% 16
+\BOOKMARK [2][-]{subsubsection.5.0.1}{Save and load models}{section.5}% 17

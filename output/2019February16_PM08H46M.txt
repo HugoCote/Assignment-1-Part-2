@@ -1,0 +1,18 @@
+
+    CNNClassifier :
+    5 Convolutional layers using stride=1, no dilatation and padding to assure same convolution, all having :
+        - kernel of size 3 doubling the number of feature maps received from the previous layer
+        - followed by ReLU non-linearity 
+        - and non-overlapping max pooling with kernel of size 2 (and stride = 2)
+        - which means that each layer (made of those 3 steps) :
+            - receive as input n  feature maps of size 2m x 2m
+            - return  as outpu 2n feature maps of size  m x  m
+    With the exeption of :
+        - layer 2 has a padding of 2 for the convolution assuring that for the rest of the convolutional part
+          the size of the feature maps are powers of 2. 
+        - the last layer does not have a max pooling
+    After the convolutional part of the model, the original 1x28x28 input picture is now a 256x2x2 vector.
+    The 5 conv. layers are followed by two fully connected layer, the first having ReLU non-linearity. The parameter
+    size can be chosen to change the size of this part of the model.
+    For the output of this model to be seen as a probabilie dist., it has to be fed to a F.softmax(...,dim=-1)
+     : number of parameters = 880850, depth = 7. , lr = 0.0831689, batch size = 19
